@@ -1,0 +1,83 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GrooveFest</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="style sheet 1.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-image: url(images/peacebackground.jpg);
+	background-repeat: repeat;
+}
+.gridContainer.clearfix #bodycontent p {
+	font-size: 16px;
+}
+</style>
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('images/link 01 about B.png','images/link 02 performers B.png','images/link 03 volunteers B.png','images/link 04 vendors B.png','images/footlink 04 facebook B.png','images/footlink 06 email B.png','images/link 05 History B.png')">
+<div class="gridContainer clearfix">
+  <div id="div1" class="fluid"><img src="images/gftiedyetitle.png" /></div>
+  
+  <div id="links" class="fluid">
+    <div id="links2" class="fluid"><a href="about.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','images/link 01 about B.png',1)"><img src="images/link 01 about.png" alt="" id="Image2"></a><a href="performers.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/link 02 performers B.png',1)"><img src="images/link 02 performers.png" alt="" id="Image3"></a><a href="volunteers.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/link 03 volunteers B.png',1)"><img src="images/link 03 volunteers.png" alt="" id="Image4"></a><a href="vendors.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/link 04 vendors B.png',1)"><img src="images/link 04 vendors.png" alt="" id="Image5"></a><a href="history.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','images/link 05 History B.png',1)"><img id="Image9" src="images/link 05 History.png"></a></div>
+  </div>
+  <div id="bodycontent" class="fluid">
+    <h1>52nd Groovefest September 28th, 2014<br>
+    9 bands + McMichael Music Student Rockstage all day, performers, speakers, vendors, arts, community,<br>
+    <br>
+    Human Rights for all!
+    </h1>
+    <p>Andrews Park, Norman <br>
+    Groovefest is the oldest Human Rights Music Festival in the WORLD since 1986.</p>
+    <p><img src="images/not final gf 2014.jpg" /></p>
+    <p><a href="Official Groovefest Packet.pdf" target="_blank">Click here if you are interested in becoming a Vendor or Sponsor!</a></p>
+  </div><div id="footlinks" class="fluid">
+    <div id="footer" class="fluid"><a href="https://www.facebook.com/pages/Norman-Groovefest/121675177848875?ref=ts" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','images/footlink 04 facebook B.png',1)"><img src="images/footlink 04 facebook.png" alt="" id="Image10"></a><a href="mailto:groovefest@gmail.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','images/footlink 06 email B.png',1)"><img src="images/footlink 06 email.png" alt="" id="Image12"></a></div>
+  </div>
+</div>
+</body>
+</html>

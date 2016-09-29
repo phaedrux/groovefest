@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Groovefest</title>
+<meta name="description" content="Music, Art, Food, Activism, Human Rights">
+<meta name="author" content="jab">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->  
+<link rel="stylesheet" href="assets/base.css">
+<link rel="stylesheet" href="fixed-navigation-bar.css">
+<link rel="stylesheet" href="newLayout.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="images/favicon.ico">
+<script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<!-- font awesome -->
+<script src="https://use.fontawesome.com/30b68f7d75.js"></script>
+</head>
+<body>
+    
+<script>
+function hidePerformers(clickedDiv) {  
+        $(".lineupDiv").find('i').toggleClass('fa-chevron-down fa-chevron-up')
+        $(".performerDiv1").toggle();
+        $(".performerDiv2").toggle();
+        $("html, body").animate({ scrollTop: 0 }, 600);
+}
+</script>
+
+<nav class="fixed-nav-bar">
+  <div id="menu" class="menu">
+    <a class="sitename" href="index.html"><img src="/images/gruv.png"></a>
+    <!-- Example responsive navigation menu  -->
+    <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
+    <ul class="menu-items">
+      <li><a href="about.html">About</a></li>
+        
+      <li><a href="performers.html">Performers</a></li>
+      <li><a href="volunteers.html">Volunteers</a></li>
+      <li><a href="vendors.html">Vendors/Sponsors</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="//www.facebook.com/NormanGroovefest/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="//instagram.com/ngroovefest/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+  </ul>
+  </div>
+</nav>
+
+<section class="content">
+  <div class="description2">
+  <!--  <h1><img id="gfestPoster" src="/images/GROOVE.png"></h1> -->
+ <!--   <p class="summary">A fixed-position (or "sticky") top navigation bar. Scroll this page to see the top navigation bar stay in place.</p>
+-->
+  </div>
+</section>
+    <div class="performersSection" onclick="hidePerformers('.performerDiv1')">
+        <h1 class="lineupDiv" style="text-align:center; color: #747474;">2016 Stage Lineup&nbsp;<i class="fa fa-chevron-up" aria-hidden="true"></i></h1>
+    </div>
+    <div class="performerDiv1">
+    <section id="bandphotos2016">
+        <div>
+            <a href="//thedirtylittlebettys.bandcamp.com/" target="_blank">
+                <img class="band" src="/band_images/2016/dirty little bettys post.jpg">
+            </a>
+            <p class="topright upperTime">
+                <a href="//thedirtylittlebettys.bandcamp.com/" target="_blank">                    
+                    12pm                    
+                </a>
+            </p>
+        </div>
+        
+        <div>
+            <a href="//justicekeeper.bandcamp.com/" target="_blank">
+                <img class="band" src="/band_images/2016/Justice Keeper post 1.jpg">
+            </a>
+            <p class="topright upperTime">
+                <a href="//justicekeeper.bandcamp.com/" target="_blank">
+                    1pm
+                </a>
+            </p>
+        </div>
+
+        <div>
+            <a href="//www.fullscreendirect.com/theroyaljelly/" target="_blank">
+                <img class="band" src="/band_images/2016/The Royal Jelly post 2.jpg">
+            </a>
+            <p class="topright upperRight">
+                <a href="//www.fullscreendirect.com/theroyaljelly/" target="_blank">
+                    2pm
+                </a>
+            </p>
+        </div>
+
+        <div>
+            <a href="//www.theannieoakley.com/index.html" target="_blank">
+                <img class="band" src="/band_images/2016/annie oakley post1.jpg">
+            </a>
+            <p class="topright">
+                <a href="//www.theannieoakley.com/index.html" target="_blank">
+                    3pm
+                </a>
+            </p>
+        </div>
+
+        <div>
+            <a href="//harumphmusic.com/" target="_blank">
+                <img class="band" src="/band_images/2016/harumph post 1.jpg">
+            </a>
+            <p class="topright upperRight">
+                <a href="//harumphmusic.com/" target="_blank">
+                    4pm
+                </a>
+            </p>
+        </div>
+        
+        <div>
+            <a href="//www.brianfrejo.com/" target="_blank">
+                <img class="band" src="/band_images/2016/culture shock camp post 1.jpg">
+            </a>
+            <p class="topright">
+                <a href="//www.brianfrejo.com/" target="_blank">
+                    5pm
+                </a>
+            </p>
+        </div>
+        
+        <div>
+            <a href="//www.youtube.com/watch?v=rdPtXDSAFOo" target="_blank">
+                <img class="band" src="/band_images/2016/New Tribe post 1.jpg">
+            </a>
+            <p class="topright upperRight">
+                <a href="//www.youtube.com/watch?v=rdPtXDSAFOo" target="_blank">
+                    6pm
+                </a>
+            </p>
+        </div>
+        
+        <div>
+            <a href="//hennaroso.com/" target="_blank">
+                <img class="band" src="/band_images/2016/henna roso web.jpg">
+            </a>
+            <p class="topright">
+                <a href="//hennaroso.com/" target="_blank">
+                    8pm
+                </a>
+            </p>
+        </div>
+        
+        <div>
+            <a href="//www.facebook.com/culturecinematicokc/" target="_blank">
+                <img class="band" src="/band_images/2016/Culture Cinematic post 1.jpg">
+            </a>
+            <p class="topright upperRight">
+                <a href="//www.facebook.com/culturecinematicokc/" target="_blank">
+                    7pm
+                </a>
+            </p>
+        </div>   
+        
+        <div>
+            <a href="//jabeemusic.com/" target="_blank">
+                <img class="band" src="/band_images/2016/jabee post 1.jpg">
+            </a>
+            <p class="topright">
+                <a href="//jabeemusic.com/" target="_blank">
+                    7pm
+                </a>
+            </p>
+        </div>        
+
+        </section>
+        <section class="other-stuff">
+            <h1>McMichael Music Showcase</h1>
+                All day in Rock Pavillion
+
+            <div id="speakers" class="fluid"><div>
+            <h1>Meaningful Speakers and arts performers between sets include        </h1>
+                <img class="band" src="/band_images/2016/speakers full list 2.jpg">
+        </section>
+    </div>
+    <div class="performersSection" onclick="hidePerformers('.performerDiv2')">
+        <h1 class="lineupDiv" style="text-align:center; color: #747474;">2015 Stage Lineup&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></h1>
+    </div>
+    <div class="performerDiv2">
+    <section id="bandphotos">
+    
+        <div><img class="band" src="/band_images/bradfielder.jpg"><p class="topright"><a href="//www.facebook.com/bradfieldermusic" target="_blank">12pm - Brad Fielder</a></p></div>
+        <div><img class="band" src="/band_images/aquarian.jpg"><p class="topright"><a href="//www.facebook.com/Aquarian-Exposition-241910112496434" target="_blank">1pm - Aquarian Exposition</a></p></div>
+        <div><img class="band" src="/band_images/electricokietest.jpg"><p class="topright"><a href="//www.facebook.com/okietest" target="_blank">2pm - Electric Okie Test</a></p></div>
+        <div><img class="band" src="/band_images/13seeds.jpg" ><p class="topright"><a href="//www.facebook.com/13seeds" target="_blank">3pm - 13 Seeds</a></p></div>
+        <div><img class="band" src="/band_images/sunRiah.jpg" ><p class="topright"><a href="//www.facebook.com/sunriahsounds" target="_blank">4pm - Sun Riah</a></p></div>
+        <div><img class="band" src="/band_images/locustave.jpg"><p class="topright"><a href="//www.facebook.com/Locust-Avenue-119806222729" target="_blank">5pm - Locust Avenue</a></p></div>
+        <div><img class="band" src="/band_images/jkeeper.JPG"><p class="topright"><a href="//www.facebook.com/JusticeKeeper359" target="_blank">6pm - Justice Keeper</a></p></div>
+    <div><img class="band" src="/band_images/GregoryJeromelive.jpg" ><p class="topright"><a href="//www.gregoryjerome.net/" target="_blank">7pm - Gregory Jerome</a></p></div>
+    </section>
+    
+    <section class="other-stuff">
+      <h1>McMichael Music Showcase</h1>
+        All day in Rock Pavillion
+ 
+    <div id="speakers" class="fluid">
+      <div>
+        <h1>Meaningful Speakers and arts performers between sets include        </h1>
+        <table border="1" cellspacing="20px" cellpadding="0">
+          <tbody>
+            <tr>
+              <td valign="top"><h3><strong><a href="//faculty-staff.ou.edu/D/Zermarie.Deacon-1/home.htm" target="_blank">Zermarie Deacon (Department of Human Relations and Women's and Gender Studies)</a> </strong></h3></td>
+                <td valign="top"><h3><strong><a href="//www.facebook.com/Oklahoma-Coalition-for-Reproductive-Justice-117032931672175" target="_blank">Karolyn Chowning (Oklahoma Coalition for Reproductive Justice)</a> </strong></h3></td>
+            </tr>
+            <tr>
+              <td valign="top"><h3><strong><a href="//www.facebook.com/groups/1424950051091596/" target="_blank">Dakota Raynes (Stop Fracking Payne County)</a></strong></h3></td>
+              <td valign="top"><h3><strong><a href="//www.greenthevoteok.com/" target="_blank">Issac Caviness (Green the Vote OK)</a> </strong></h3></td>
+            </tr>
+            <tr>
+              <td valign="top"><h3><strong><a href="//www.facebook.com/" target="_blank">Senator Constance Johnson (Oklahoma Coalition to Abolish the Death Penalty)</a></strong></h3></td>
+                <td valign="top"><h3><strong><a href="//www.mindysmemory.org/" target="_blank">Bob Ingersoll (Mindy’s Memory Primate Sanctuary)</a> </strong></h3></td>        
+            </tr>
+            <tr>
+              <td valign="top"><h3><strong><a href="//www.facebook.com/Black-Oklahomans-Lives-Matter-1612457219003340" target="_blank">Erika Pruitt (Black Oklahomans’ Lives Matter)</a> </strong></h3></td>
+              <td valign="top"><h3><strong><a href="//www.facebook.com/yesalldaughters" target="_blank">Stacey Wright (Yes All Daughters)</a> </strong></h3></td>
+            </tr>
+            <tr>
+              <td valign="top"><h3><strong><a href="//www.normanok.gov/city/human-rights-commission" target="_blank">Kay Ham (Norman Human Rights Commission) </a></strong></h3></td>               
+              <td valign="top"><h3><strong><a href="//fertilegroundok.coop/" target="_blank">Stefan Warner (Fertile Ground Co-op)</a></strong></h3></td>
+            </tr>
+            <tr>
+              <td valign="top"><h3><strong><a href="//www.facebook.com/idlenomoreok" target="_blank">Sarah-Adams Cornell (Activist in Residence for the Center of Social Justice at OU, Board Member of the OK Choctaw Tribal Alliance, and Idle No More Central Oklahoma) </a></strong></h3></td>
+              <td valign="top"><h3><strong>More tba</strong></h3></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>&nbsp;</p>
+      </div>
+      <div></div><div>
+      </div>
+    </div>
+</section>
+    </div>
+</body>
+</html>

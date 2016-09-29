@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Groovefest 2010 - OCT 10</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+<!--
+body {
+	background-color: #666666;
+}
+-->
+</style>
+
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<link href="../css/style1.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+
+<body onload="MM_preloadImages('../images/nav/about2.jpg','../images/nav/per2.jpg','../images/nav/vol2.jpg','../images/nav/ven2.jpg','../images/nav/spon2.jpg')">
+
+  <Table border="0" align="center"  cellpadding="0" cellspacing="0"  bgcolor="#ADD2FC" class="main"  >
+   	<tr>  
+   	  <td valign="top">
+        <table cellpadding="0" cellspacing="0"   >
+          <tr>
+            <td width="1000" height="300" bgcolor="#666666">
+              
+              <img src="../images/grassbanner.jpg" border="0" usemap="#Map" />	</td>
+          </tr>
+          <tr>
+          <td bgcolor="#666666"><a href="../about.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('about','','../images/nav/about2.jpg',1)"><img src="../images/nav/about1.jpg" name="about" width="216" height="49" border="0" id="about" /></a><a href="../bands.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('per','','../images/nav/per2.jpg',1)"><img src="../images/nav/per1.jpg" alt="Performers" name="per" width="187" height="50" border="0" id="per" /></a><a href="../volunteers.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('volunteers','','../images/nav/vol2.jpg',1)"><img src="../images/nav/vol1.jpg" alt="volunteers" name="volunteers" width="186" height="50" border="0" id="volunteers" /></a><a href="../vendors.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('vendors','','../images/nav/ven2.jpg',1)"><img src="../images/nav/ven1.jpg" alt="vendors" name="vendors" width="185" height="49" border="0" id="vendors" /></a><a href="../sponsors.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sponsors','','../images/nav/spon2.jpg',1)"><img src="../images/nav/spon1.jpg" name="sponsors" width="226" height="50" border="0" id="sponsors" /></a></td>
+          </tr>
+          <tr>
+            <td valign="top" width="1000"  height="100" bgcolor="#ADD2FC" ><!-- TemplateBeginEditable name="EditRegion1" -->tits<!-- 						TemplateEndEditable -->
+            </td>
+            
+          </tr>
+          
+
+          
+        </table>      
+      </td>
+   	</tr> 
+            	<TFOOT>
+    		<tr>
+          <td bgcolor="#ADD2FC" class="footer" align="center" style="border-top:1px solid red;">
+               	  
+              <table align="center" cellpadding="4" cellspacing="5">
+                <tr>	
+                  <td width="125">
+                    <div align="center"><a href="../about.html" class="footer">about</a> </div></td>
+                  <td width="125">
+                    <div align="center"><a href="index.html" class="footer">news 
+                </a> </div></td>
+                  <td width="125">
+                    <div align="center"><a href="http://ouamnesty.blogspot.com/" target="_blank" class="footer">amnesty </a> </div></td>
+                  <td width="125">
+                    <div align="center"><a href="http://www.facebook.com/#!/pages/norman-groovefest/121675177848875?ref=ts" target="_blank"  class="footer">facebook 
+                </a> </div></td>
+                  <td width="125">
+                    <div align="center"><a href="http://www.myspace.com/normangroovefest" target="_blank"  class="footer">myspace </a> </div></td>
+                  <td width="125">
+                    <div align="center"><a href="mailto:groovefest@gmail.com" target="_blank"  class="footer">email</a> </div></td>
+                </tr>
+            </table>               
+              </td>
+	  	    </tr>
+     
+</TFOOT>
+  
+</table>
+</div>
+
+<map name="Map" id="Map"><area shape="rect" coords="18,29,968,277" href="../index.html" />
+</map></body>
+</html>
