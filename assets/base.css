@@ -168,6 +168,15 @@ a:link, a:visited, a:hover, a:active {
     display: none;
 }
 
+.gFestArticleImage {
+    width: 100%;
+}
+
+#gFestArticle {
+    display: block;
+    padding: 24px 20px 0px 24px;
+    width: 100%;
+}
 /*
 .menu-items {   
     margin: 0px !important; 
