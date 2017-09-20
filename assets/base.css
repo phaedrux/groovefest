@@ -120,7 +120,7 @@ a:link, a:visited, a:hover, a:active {
 /*
 #gfestPoster {
     width:290px;
-    height:auto;    
+    height:auto;
     margin-top: -58px;
     margin-bottom: 6px;
 }
@@ -131,7 +131,7 @@ a:link, a:visited, a:hover, a:active {
     height: auto;
     /* margin-top: -58px; */
     /* margin-bottom: 6px; */
-    float: right;    
+    float: right;
 }
 
 #pageOneContent {
@@ -153,7 +153,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .performerDiv2 {
-    display: none;    
+    display: none;
+}
+
+.performerDiv3 {
+    display: none;
 }
 
 .performersSection, .sponsorsSection {
@@ -161,7 +165,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .sponsorDiv2 {
-    display: none;    
+    display: none;
 }
 
 .modalAlert {
@@ -178,8 +182,8 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
 }
 /*
-.menu-items {   
-    margin: 0px !important; 
-    padding-left: 0px !important; 
+.menu-items {
+    margin: 0px !important;
+    padding-left: 0px !important;
 }
 */
