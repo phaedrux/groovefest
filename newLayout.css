@@ -11,6 +11,19 @@
   column-gap:           0px;  
 }
 
+#bandphotos2016 {
+  /* Prevent vertical gaps */
+  line-height: 0;
+    
+   
+  -webkit-column-count: 4;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    4;
+  -moz-column-gap:      0px;
+  column-count:         4;
+  column-gap:           0px;  
+}
+
 #bandphotos img {
   /* Just in case there are inline attributes */
   width: 100% !important;
@@ -129,6 +142,10 @@
 
 .band {
   width: 295px;  
+}
+
+.speakerImage {
+  max-width: 100%;
 }
 
 
