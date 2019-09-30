@@ -134,6 +134,14 @@ a:link, a:visited, a:hover, a:active {
     float: right;
 }
 
+#gfestMap {
+    width: 290px;
+    height: auto;
+    /* margin-top: -58px; */
+    /* margin-bottom: 6px; */
+    float: right;
+}
+
 #pageOneContent {
     margin-top: 0 !important;
 }
@@ -164,6 +172,10 @@ a:link, a:visited, a:hover, a:active {
   display: none;
 }
 
+.performerDiv5 {
+    display: none;
+}
+
 .performersSection, .sponsorsSection {
     cursor: pointer;
 }
@@ -178,6 +190,10 @@ a:link, a:visited, a:hover, a:active {
 
 .sponsorDiv4 {
   display: none;
+}
+
+.sponsorDiv5 {
+    display: none;
 }
 
 .modalAlert {
